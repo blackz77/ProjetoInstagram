@@ -1,0 +1,151 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+.menu-superior{
+    width: 100%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 1px #dbdbdb;
+}
+.conteiner-superior{
+    width: 100%;
+    height: 54px;
+    margin-left: 215px;
+    margin-right: 215px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.conteiner-inferior{
+
+}
+.conteudo{
+
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-top: 30px;
+    display: flex;
+}
+.esquerda{
+
+    width: 60%;
+}
+.storys{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 16px;
+}
+.imagem-story{
+    position: absolute;
+    top: 5px;
+}
+.storys p{
+    font-size: 12px;
+}
+.caixa-story{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: hidden;
+    width: 100%;
+    height: 118px;
+    margin-bottom: 18px;
+    border: solid 1px #dbdbdb;
+    border-radius: 3px;
+
+}
+.back{
+    width: 66px;
+    height: 66px;
+}
+.postagens{
+    width: 100%;
+    height: 45%;
+    border: solid 1px #dbdbdb;
+    border-radius: 3px;
+    margin-bottom: 25px;
+}
+.postagens img{
+    width: 100%;
+}
+.perfil-postou{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.perfil-postou p{
+    margin-right: 15px;
+}
+.perfil-postou h1{
+    margin-left: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+
+}
+.logo img{
+    width: 80px;
+    height: 32px;
+}
+
+.logo h1{
+    weight: 500;
+    font-size: 14px;
+}
+.rodape{
+
+    height: 55px;
+}
+.icones{
+    display: flex;
+    width: 17%;
+    justify-content: space-around;
+}
+
+.icones img{
+    width: 22px;
+    height: 22px;
+}
+
+.curtidas{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.curtidas img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.direita{
+    background-color: red;
+    width: 100%;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.meu-perfil{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+}
+.nome{
+    margin-left: 10px;
+}
