@@ -133,14 +133,13 @@ body{
     margin-left: 10px;
 }
 .direita{
-    background-color: red;
     width: 100%;
     padding-left: 25px;
     padding-top: 25px;
 }
 
 .meu-perfil{
-    background-color: aliceblue;
+    background-color: white;
     display: flex;
     align-items: center;
     height: 90px;
@@ -148,4 +147,46 @@ body{
 }
 .nome{
     margin-left: 10px;
+}
+
+.sugestoes{
+    width: 100%;
+}
+
+.cabeca{
+    display: flex;
+    justify-content: space-between;
+    color: #8E8E8E;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cabeca a{
+    color: black;
+    text-decoration: none;
+}
+
+.paginassugeridas{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.paginassugeridas h1{
+    margin-left: 10px;
+}
+
+.paginassugeridas img{
+    width: 32px;
+}
+
+.sugestoes p{
+    width: 300px;
+    height: 42px;
+    font-size: 11px;
+    font-weight: 400;
+    color: #C7C7C7;
+    margin-top: 20px;
 }
