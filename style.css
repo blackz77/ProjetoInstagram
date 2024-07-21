@@ -190,3 +190,53 @@ body{
     color: #C7C7C7;
     margin-top: 20px;
 }
+
+@media (max-width: 935px){
+    .direita{
+        display: none;
+    }
+    .conteiner-inferior{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .esquerda{
+        width: 90%;
+    }
+    .conteudo{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    .conteiner-superior{
+        margin: 0;
+        width: 100%;
+    }
+    .caixa-story{
+        width: 100%;
+        height: 8%;
+    }
+}
+
+@media (max-width: 614px){
+    .pesquisa{
+        display: none;
+    }
+    .conteiner-superior{
+        display: flex;
+        justify-content: space-between
+    }
+    .conteudo{;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .esquerda{
+        width: 100%;
+    }
+    .caixa-story{
+        width: 100%;
+        margin-bottom: 0;
+    }
+}
